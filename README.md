@@ -5,6 +5,9 @@ EcoTrack AI is an AI-powered waste management platform that allows users to repo
 
 ![EcoTrack AI Banner](https://i.postimg.cc/hG1THsLC/Screenshot-2025-02-17-130702.png)
 
+## Login Process:
+Before users can access any features, they must log in using Web3 Auth for secure authentication.
+
 
 ---
 

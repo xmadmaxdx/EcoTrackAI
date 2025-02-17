@@ -67,9 +67,8 @@ The app should now be running on **http://localhost:3000** 🚀
 ## 🏗️ Tech Stack  
 
 - **Frontend** – Next.js (React)  
-- **Backend** – Firebase (Auth & Database)  
+- **Backend** – Neon (PostgreSQL)
 - **AI Integration** – Gemini AI (Image analysis & verification)  
-- **Maps API** – Location-based waste tracking  
 
 ---
 

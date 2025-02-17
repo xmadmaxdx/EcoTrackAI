@@ -43,7 +43,7 @@ NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID=your_web3_auth_client_id
 DATABASE_URL=your_database_url
 ````
 
-Replace `your_gemini_api_key`, `your_map_api_key`, and `your_firebase_config` with actual values.  
+Replace `your_gemini_api_key`, `your_web3_auth_client_id`, and `your_database_url` with actual values.  
 
 ### Start the Development Server  
 

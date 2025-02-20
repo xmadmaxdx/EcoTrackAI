@@ -41,11 +41,11 @@ npm install
 Create a .env file in the root directory and add the following environment variables:  
 
 ````plaintext
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID=your_web3_auth_client_id
-DATABASE_URL=your_database_url
 ````
 
-Replace your_gemini_api_key, your_web3_auth_client_id, and your_database_url with actual values.  
+Replace your_gemini_api_key, and your_web3_auth_client_id with actual values.  
 
 ### Start the Development Server  
 

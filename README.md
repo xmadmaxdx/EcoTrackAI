@@ -1,40 +1,103 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 EcoTrack AI: Your SustainTrack Platform  
 
-## Getting Started
+EcoTrack AI is an AI-powered waste management platform that allows users to report waste, collect waste, and earn rewards while promoting a cleaner environment. Built with Next.js (React), TypeScript, and Gemini AI, this project encourages responsible waste disposal through gamification and community participation.
 
-First, run the development server:
 
-```bash
+![EcoTrack AI Banner](https://i.postimg.cc/hG1THsLC/Screenshot-2025-02-17-130702.png)
+
+## Login Process:
+Before users can access any features, they must log in using Web3 Auth for secure authentication.
+
+
+---
+
+## 🚀 Features  
+
+- Home Page – Navigate through all functionalities.  
+- Report Waste – Users can post waste near their location. Gemini AI estimates its weight (in kg) and waste type. Users manually input the location.  
+- Collect Waste – Users verify and complete waste collection tasks by uploading an image. AI matches it for accuracy before marking it as complete.  
+- Rewards Page – Users earn points for reporting and collecting waste (collecting gives more points).  
+- Leaderboard – Displays the ranking of users based on points earned.  
+
+---
+
+## 🛠 Getting Started  
+
+### Clone the Repository  
+
+````sh
+git clone https://github.com/xmadmaxdx/EcoTrackAI.git
+cd EcoTrackAI
+````
+
+### Install Dependencies  
+
+````sh
+npm install
+````
+
+### Set Up Environment Variables  
+
+Create a .env file in the root directory and add the following environment variables:  
+
+````plaintext
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+NEXT_PUBLIC_WEB3_AUTH_CLIENT_ID=your_web3_auth_client_id
+````
+
+Replace your_gemini_api_key, and your_web3_auth_client_id with actual values.  
+
+### Start the Development Server  
+
+````sh
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app should now be running on http://localhost:3000 🚀  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 How It Works  
 
-## Learn More
+1. Report Waste – Users submit waste details (location + image). AI analyzes weight & type.  
+2. Collect Waste – Users verify the report by uploading an image of collected waste. AI confirms the match.  
+3. Earn Rewards – Users gain points for reports and collections. Collecting gives more points.  
+4. Leaderboard – Users can track their ranking in the community.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗 Tech Stack  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Frontend – Next.js (React) + TypeScript
+- Backend – Neon (PostgreSQL)
+- AI Integration – Gemini AI (Image analysis & verification)  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 License  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# EcoTrackAI
->>>>>>> 09094fb2fafa0757069a94207cbfd2d0af319f39
+This project is licensed under the [MIT LICENSE](LICENSE).  
+
+---
+
+## 🤝 Contributing  
+
+Want to contribute? Feel free to fork the repo, create a new branch, and submit a pull request!  
+
+````sh
+git checkout -b feature-branch
+git commit -m "Your feature description"
+git push origin feature-branch
+````
+
+---
+
+## 💡 Future Enhancements  
+
+- ✅ AI-powered waste classification improvements  
+- ✅ Community challenges for higher engagement  
+- ✅ Mobile app integration for easier access  
+
+---
+
+🌱 Let's make the world cleaner, together! 🚮♻️

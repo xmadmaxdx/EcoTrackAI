@@ -2,6 +2,7 @@
 
 EcoTrack AI is an AI-powered waste management platform that allows users to report waste, collect waste, and earn rewards while promoting a cleaner environment. Built with Next.js (React), TypeScript, and Gemini AI, this project encourages responsible waste disposal through gamification and community participation.
 
+Developed by Simanta Das & Soumitra Das.
 
 ![EcoTrack AI Banner](https://i.postimg.cc/hG1THsLC/Screenshot-2025-02-17-130702.png)
 
